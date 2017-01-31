@@ -1,0 +1,99 @@
+html {
+  background: black;
+  color: white;
+     -webkit-font-smoothing: antialiased;
+     text-shadow: rgba(0,0,0,.01) 0 0 1px;
+     font-size: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+p {
+  -webkit-margin-before: 0;
+-webkit-margin-after: 0;
+padding-bottom: 1em;
+}
+
+h4 {
+  font-size: 1.666rem;
+}
+
+.logo {
+  flex: 2;
+  background-size: cover;
+  height: 50px;
+  width: 66px;
+  background-image: url(http://img02.deviantart.net/c067/i/2013/023/8/8/nicce_the_barber_logo_3_by_dubledz-d5sid7z.png)
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/57/0f/f0/570ff0af1a7f434fded2c66b8334aab9.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+
+.infoDetail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.text {
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+@media (max-width: 800px) {
+  .one,
+  .two {
+  width: 100vw;
+}
+}
