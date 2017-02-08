@@ -4,6 +4,7 @@ html {
      -webkit-font-smoothing: antialiased;
      text-shadow: rgba(0,0,0,.01) 0 0 1px;
      font-size: 16px;
+font-family: "Open Sans";
 }
 
 body {
@@ -43,6 +44,8 @@ h4 {
     align-items: flex-start;
     text-align: left;
     justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 }
 
@@ -64,6 +67,8 @@ h4 {
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .address {
@@ -71,6 +76,10 @@ h4 {
   flex-direction: column;
   flex-wrap: nowrap;
   margin-right: 3.33em;
+  align-items: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .hero {
