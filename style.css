@@ -74,7 +74,7 @@ h4 {
 }
 
 .hero {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/57/0f/f0/570ff0af1a7f434fded2c66b8334aab9.jpg);
+  background-image: url('hero_dark.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
