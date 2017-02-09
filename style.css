@@ -46,8 +46,9 @@ h4 {
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
+    height: 100%;
 }
-}
+
 
 .wrapper {
   width: 95%;
@@ -63,7 +64,7 @@ h4 {
 }
 
 .time {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
