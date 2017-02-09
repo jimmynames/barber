@@ -60,7 +60,7 @@ h4 {
   background-size: cover;
   height: 50px;
   width: 66px;
-  background-image: url('nap.png');
+  background-image: url(http://img02.deviantart.net/c067/i/2013/023/8/8/nicce_the_barber_logo_3_by_dubledz-d5sid7z.png)
 }
 
 .time {
@@ -115,11 +115,13 @@ h4 {
   flex-wrap: wrap;
   align-content: center;
   height: 100vh;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .map {
-  height: 300px;
-  width: 300px;
+width: 600px;
+width: 600px;
 }
 
 .infoDetail {
