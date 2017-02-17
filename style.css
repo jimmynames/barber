@@ -19,12 +19,18 @@ header {
 p {
   -webkit-margin-before: 0;
 -webkit-margin-after: 0;
-padding-bottom: 1em;
+padding-bottom: 0;
 text-align: left;
 }
 
 h4 {
-  font-size: 1.666rem;
+  display: block;
+-webkit-margin-before: 0.4em;
+-webkit-margin-after: 1.33em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+font-size: 1.666rem;
 }
 
 .container {
@@ -142,8 +148,26 @@ width: 600px;
   line-height: 1.333;
 }
 
+.text ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+-webkit-padding-start: 0;
 
-@media (max-width: 800px) {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.text ul li {
+  width: 45%;
+}
+
+
+@media (max-width: 700px) {
   .one,
   .two {
   width: 100%;
@@ -152,4 +176,16 @@ width: 600px;
   width: 90%;
   margin: 0 auto;
 }
+}
+
+@media (max-width: 500px) {
+  .header {
+
+  }
+  .address {
+    margin-right: 0;
+  }
+  .logo {
+    display: none;
+  }
 }
