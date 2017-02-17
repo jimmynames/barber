@@ -65,10 +65,12 @@ font-size: 1.666rem;
 
 .logo {
   flex: 2;
+  height: auto;
+  width: 50%;
+
+  /*
   background-size: cover;
-  height: 50px;
-  width: 66px;
-  background-image: url(http://img02.deviantart.net/c067/i/2013/023/8/8/nicce_the_barber_logo_3_by_dubledz-d5sid7z.png)
+  background-image: url('hero.jpg')*/
 }
 
 .time {
