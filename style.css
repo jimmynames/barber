@@ -222,8 +222,8 @@ width: 600px;
 
 .text {
   margin-bottom: 1em;
-  margin-right: 1em;
   line-height: 1.333;
+  
 }
 
 .text ul {
@@ -244,6 +244,9 @@ justify-content: space-between;
   width: 45%;
 }
 
+.cash {
+  color: lightgreen;
+}
 
 @media (max-width: 991px) {
   .one,
