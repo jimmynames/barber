@@ -205,13 +205,14 @@ display: none;
 
 .map {
   opacity: 0.85;
+  transition: all 0.3s ease;
 width: 600px;
 width: 600px;
 }
 
 .map:hover {
   opacity: 1;
-  transition: all 1s ease;
+  transition: all 0.3s ease;
 }
 
 figcaption {
