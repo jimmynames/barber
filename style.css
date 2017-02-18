@@ -56,6 +56,11 @@ font-size: 2.179rem;
 font: 'stagBold';
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   width: 100%;
 }
@@ -151,6 +156,7 @@ padding: 0.75em 1.5em;
 margin-top: 2em;
 border: 2px solid black;
 transition: all 0.333s ease;
+display: none;
 }
 
 .cta:hover {
@@ -260,5 +266,13 @@ justify-content: space-between;
   }
   .address {
     margin-right: 0;
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .cta {
+    display: block;
   }
 }
