@@ -26,6 +26,10 @@ header {
   height: 20vh;
   padding: 0;
   font-family: 'stag', "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
 
 p {
@@ -55,7 +59,6 @@ font-size: 1.666rem;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1em;
 }
 
 .headerDetailContainer {
@@ -229,19 +232,26 @@ justify-content: space-between;
   width: 100%;
 }
   .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
+.headerWrapper {
+  justify-content: space-around;
+  width: 100%;
+}
+}
+
+@media (max-width: 723px ) {
+  .logo {
+    display: none;
+  }
+
 }
 
 @media (max-width: 500px) {
   .header {
-
   }
   .address {
     margin-right: 0;
-  }
-  .logo {
-    display: none;
   }
 }
