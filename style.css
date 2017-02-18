@@ -308,6 +308,7 @@ justify-content: space-between;
 @media (max-width: 666px) {
   header {
     height: 10vh;
+    padding: 1em 0
   }
   .address {
     display: none;
