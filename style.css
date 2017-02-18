@@ -223,7 +223,7 @@ width: 600px;
 .text {
   margin-bottom: 1em;
   line-height: 1.333;
-  
+
 }
 
 .text ul {
@@ -241,11 +241,22 @@ justify-content: space-between;
 }
 
 .text ul li {
-  width: 45%;
+  width: 100%;
+  padding: 0.25em 0;
 }
 
 .cash {
   color: lightgreen;
+}
+
+.blue {
+  color: darkgreen;
+  opacity: 1;
+}
+
+.red {
+  color: darkgreen;
+  opacity: 1;
 }
 
 @media (max-width: 991px) {
@@ -276,6 +287,10 @@ justify-content: space-between;
   }
   .address {
     margin-right: 0;
+  }
+  .text ul li {
+    width: 100%;
+    padding-bottom: 1em;
   }
 }
 
@@ -310,4 +325,12 @@ and (max-device-width: 700px) {
   .cta {
     display: block;
   }
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
 }
