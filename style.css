@@ -269,14 +269,35 @@ justify-content: space-between;
   }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px) {
-  .cta {
-    display: block;
+@media (max-width: 666px) {
+  header {
+    height: 10vh;
+  }
+  .time {
+    display: none;
+  }
+
+  .logoImg {
+    height: auto;
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .map {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
-@-ms-viewport{
-  width: device-width;
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 700px) {
+  .cta {
+    display: block;
+  }
 }
