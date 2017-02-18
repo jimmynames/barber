@@ -276,3 +276,7 @@ and (max-device-width: 480px) {
     display: block;
   }
 }
+
+@-ms-viewport{
+  width: device-width;
+}
