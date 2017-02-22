@@ -277,7 +277,7 @@ display: none;
 }
 
 .map {
-  opacity: 0.85;
+  opacity: 1;
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
 width: 600px;
@@ -285,7 +285,7 @@ width: 600px;
 }
 
 .map:hover {
-  opacity: 1;
+  border: 1px solid white;
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
 }
